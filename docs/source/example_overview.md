@@ -34,24 +34,24 @@ Then, it is encouraged to launch jobs with `accelerate launch`!
 
 | File                                                                                           | Description                                                                                                              |
 |------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [`examples/scripts/sft.py`](https://github.com/huggingface/trl/blob/main/examples/scripts/sft.py) | This script shows how to use the `SFTTrainer` to fine tune a model or adapters into a target dataset.                     |
-| [`examples/scripts/reward_modeling.py`](https://github.com/huggingface/trl/blob/main/examples/scripts/reward_modeling.py) | This script shows how to use the `RewardTrainer` to train a reward model on your own dataset.                            |
-| [`examples/scripts/ppo.py`](https://github.com/huggingface/trl/blob/main/examples/scripts/ppo.py) | This script shows how to use the `PPOTrainer` to fine-tune a sentiment analysis model using IMDB dataset                 |
-| [`examples/scripts/ppo_multi_adapter.py`](https://github.com/huggingface/trl/blob/main/examples/scripts/ppo_multi_adapter.py) | This script shows how to use the `PPOTrainer` to train a single base model with multiple adapters. Requires you to run the example script with the reward model training beforehand. |
-| [`examples/scripts/stable_diffusion_tuning_example.py`](https://github.com/huggingface/trl/blob/main/examples/scripts/stable_diffusion_tuning_example.py) | This script shows to use DDPOTrainer to fine-tune a stable diffusion model using reinforcement learning.                 |
+| [`examples/scripts/sft.py`](https://github.com/kris-fillip/trl/blob/main/examples/scripts/sft.py) | This script shows how to use the `SFTTrainer` to fine tune a model or adapters into a target dataset.                     |
+| [`examples/scripts/reward_modeling.py`](https://github.com/kris-fillip/trl/blob/main/examples/scripts/reward_modeling.py) | This script shows how to use the `RewardTrainer` to train a reward model on your own dataset.                            |
+| [`examples/scripts/ppo.py`](https://github.com/kris-fillip/trl/blob/main/examples/scripts/ppo.py) | This script shows how to use the `PPOTrainer` to fine-tune a sentiment analysis model using IMDB dataset                 |
+| [`examples/scripts/ppo_multi_adapter.py`](https://github.com/kris-fillip/trl/blob/main/examples/scripts/ppo_multi_adapter.py) | This script shows how to use the `PPOTrainer` to train a single base model with multiple adapters. Requires you to run the example script with the reward model training beforehand. |
+| [`examples/scripts/stable_diffusion_tuning_example.py`](https://github.com/kris-fillip/trl/blob/main/examples/scripts/stable_diffusion_tuning_example.py) | This script shows to use DDPOTrainer to fine-tune a stable diffusion model using reinforcement learning.                 |
 
 Here are also some easier-to-run colab notebooks that you can use to get started with TRL:
 
 
 | File                                                                                           | Description                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
-| [`examples/notebooks/best_of_n.ipynb`](https://github.com/huggingface/trl/tree/main/examples/notebooks/best_of_n.ipynb)                       | This notebook demonstrates how to use the "Best of N" sampling strategy using TRL when fine-tuning your model with PPO.  |
-| [`examples/notebooks/gpt2-sentiment.ipynb`](https://github.com/huggingface/trl/tree/main/examples/notebooks/gpt2-sentiment.ipynb)              | This notebook demonstrates how to reproduce the GPT2 imdb sentiment tuning example on a jupyter notebook.                |
-| [`examples/notebooks/gpt2-control.ipynb`](https://github.com/huggingface/trl/tree/main/examples/notebooks/gpt2-control.ipynb)                  | This notebook demonstrates how to reproduce the GPT2 sentiment control example on a jupyter notebook.                    |
+| [`examples/notebooks/best_of_n.ipynb`](https://github.com/kris-fillip/trl/tree/main/examples/notebooks/best_of_n.ipynb)                       | This notebook demonstrates how to use the "Best of N" sampling strategy using TRL when fine-tuning your model with PPO.  |
+| [`examples/notebooks/gpt2-sentiment.ipynb`](https://github.com/kris-fillip/trl/tree/main/examples/notebooks/gpt2-sentiment.ipynb)              | This notebook demonstrates how to reproduce the GPT2 imdb sentiment tuning example on a jupyter notebook.                |
+| [`examples/notebooks/gpt2-control.ipynb`](https://github.com/kris-fillip/trl/tree/main/examples/notebooks/gpt2-control.ipynb)                  | This notebook demonstrates how to reproduce the GPT2 sentiment control example on a jupyter notebook.                    |
 
 
 We also have some other examples that are less maintained but can be used as a reference:
-1. **[research_projects](https://github.com/huggingface/trl/tree/main/examples/research_projects)**: Check out this folder to find the scripts used for some research projects that used TRL (LM de-toxification, Stack-Llama, etc.)
+1. **[research_projects](https://github.com/kris-fillip/trl/tree/main/examples/research_projects)**: Check out this folder to find the scripts used for some research projects that used TRL (LM de-toxification, Stack-Llama, etc.)
 
 
 ## Distributed training

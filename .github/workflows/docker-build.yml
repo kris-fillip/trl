@@ -40,7 +40,7 @@ jobs:
         with:
           context: ./docker/trl-latest-gpu
           push: true
-          tags: huggingface/trl-latest-gpu
+          tags: kris-fillip/trl-latest-gpu
 
   trl-source:
     name: "Latest TRL + HF ecosystem from source"
@@ -71,4 +71,4 @@ jobs:
         with:
           context: ./docker/trl-source-gpu
           push: true
-          tags: huggingface/trl-source-gpu
+          tags: kris-fillip/trl-source-gpu

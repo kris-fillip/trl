@@ -113,7 +113,7 @@ def main(text_file_name, slack_channel_name=None):
                 "accessory": {
                     "type": "button",
                     "text": {"type": "plain_text", "text": "Check Action results", "emoji": True},
-                    "url": f"https://github.com/huggingface/trl/actions/runs/{os.environ['GITHUB_RUN_ID']}",
+                    "url": f"https://github.com/kris-fillip/trl/actions/runs/{os.environ['GITHUB_RUN_ID']}",
                 },
             }
             payload.append(action_button)

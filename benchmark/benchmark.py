@@ -74,7 +74,7 @@ def autotag() -> str:
     git_commit = subprocess.check_output(["git", "rev-parse", "--verify", "HEAD"]).decode("ascii").strip()
     try:
         # try finding the pull request number on github
-        prs = requests.get(f"https://api.github.com/search/issues?q=repo:huggingface/trl+is:pr+{git_commit}")
+        prs = requests.get(f"https://api.github.com/search/issues?q=repo:kris-fillip/trl+is:pr+{git_commit}")
         if prs.status_code == 200:
             prs = prs.json()
             if len(prs["items"]) > 0:

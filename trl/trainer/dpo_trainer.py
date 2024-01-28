@@ -588,7 +588,7 @@ class DPOTrainer(Trainer):
 
         if not self.is_encoder_decoder:
             # Check issues below for more details
-            #  1. https://github.com/huggingface/trl/issues/907
+            #  1. https://github.com/kris-fillip/trl/issues/907
             #  2. https://github.com/EleutherAI/lm-evaluation-harness/pull/531#issuecomment-1595586257
             #  3. https://github.com/LianjiaTech/BELLE/issues/337
 

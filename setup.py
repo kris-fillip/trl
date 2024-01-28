@@ -95,7 +95,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
     ],
-    url="https://github.com/huggingface/trl",
+    url="https://github.com/kris-fillip/trl",
     packages=find_packages(),
     include_package_data=True,
     install_requires=REQUIRED_PKGS,
